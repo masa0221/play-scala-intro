@@ -13,7 +13,8 @@ libraryDependencies ++= Seq(
   ws,
   specs2 % Test,
   "com.h2database" % "h2" % "1.4.177",
-  "org.sorm-framework" % "sorm" % "0.3.16"
+  "org.sorm-framework" % "sorm" % "0.3.16",
+  "org.webjars" % "jquery" % "2.1.1"
 )
 
 resolvers += "scalaz-bintray" at "http://dl.bintray.com/scalaz/releases"
